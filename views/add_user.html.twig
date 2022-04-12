@@ -1,0 +1,14 @@
+{% extends 'layout.html.twig' %}
+
+{% set adminMenu = true %}
+
+{% block title %}Add a new user{% endblock %}
+
+{%set title={'title':'Add a new user'}%}
+
+
+{% block content %}
+    
+    {%include 'user_form.html.twig'with title %}
+    
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'layout.html.twig' %}
+
+{% set adminMenu = true %}
+
+{% block title %}Edit link informations{% endblock %}
+
+{%set title={'title':'Edit link informations'}%}
+
+{% block content %}
+    
+    {%include 'link_form.html.twig'with title %}
+    
+{% endblock %}

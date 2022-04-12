@@ -1,0 +1,16 @@
+{% extends 'layout.html.twig' %}
+
+{% set submit=true %}
+
+{% block title %}Add a new link{% endblock %}
+
+{%set title={'title':'Add a new Link'}%}
+
+{% block content %} 
+    
+
+    
+    {%include 'link_form.html.twig'with title %}
+    
+    
+{% endblock %}

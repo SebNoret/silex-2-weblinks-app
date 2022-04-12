@@ -1,0 +1,14 @@
+{% extends 'layout.html.twig' %}
+
+{% set adminMenu = true %}
+
+{% block title %}Edit user informations{% endblock %}
+
+{%set title={'title':'Edit user informations'}%}
+
+
+{% block content %}
+    
+    {%include 'user_form.html.twig'with title %}
+    
+{% endblock %}

@@ -1,0 +1,26 @@
+body { 
+    padding-top: 70px; 
+}
+
+#message{
+    text-align: center;
+}
+
+
+#errorPanel{
+    margin-top: 150px;
+   
+}
+
+
+
+#link_form_title, #admin_title, #user_form_title, #index_title{
+   margin-top: 45px; 
+   font-weight: bold;
+}
+
+#link_form, #list_table, #user_form, #link_list{
+    
+    margin-top: 60px;
+}
+
